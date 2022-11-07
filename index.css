@@ -1,0 +1,35 @@
+#main {
+    width: 980px;
+    height: 680px;
+    margin: 0px auto;
+    background-color: #00ffff;
+}
+
+header {
+    height: 150px;
+    background-color: #9acd32;
+}
+
+nav {
+    height: 60px;
+    background-color: #de670c;
+}
+
+article {
+    display: inline-block;
+    width: 580px;
+    height: 390px;
+    background-color: #ff0000;
+}
+
+aside {
+    float: left;
+    height: 390px;
+    width: 400px;
+    background-color: #8181bf;
+}
+
+footer {
+    height: 80px;
+    background-color: #ca0499;
+}
