@@ -12,23 +12,61 @@
 <body>
     <div id="main">
         <header>
-
+            <img src="img/logo.png" />
+            <h1>Bienvenido a Mi Banco</h1>
         </header>
 
         <nav>
-
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Créditos Hipotecarios</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Iniciar Sesión</a></li>
+            </ul>
         </nav>
 
         <article>
+            <form>
+                <h3>Ingresa tus datos Personales</h3>
+                <div class="container">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Ingresa tus nombres"><br>
+
+                    <label for="apellido">Apellido</label>
+                    <input type="text" placeholder="Ingresa tus apellidos"><br>
+
+                    <label for="email" />Email</label>
+                    <input type="email" placeholder="ejemplo@dominio.com"><br>
+
+                    <label for="number">Telefono</label>
+                    <input type="number" placeholder="+51924567283"><br>
+                </div>
+                <br>
+                <input type="button" onclick="alert('Sus Datos han sido registrados')" value="Registrar Datos">
+                <br>
+            </form>
 
         </article>
 
         <aside>
+            <section>
+                <img src="img/tarjeta.jpeg" width="100" height="101" />
+                <p>En 1998, se fundó la Edpyme Edyficar con la participación de CARE Perú como accionista
+                    mayoritario, una organización internacional de desarrollo sin fines de lucro. Edyficar
+                    inicia operaciones en Lima, Arequipa y La Libertad sobre la base y experiencia del
+                    programa de apoyo crediticio de CARE Perú dirigido a segmentos de pobladores de menores
+                    recursos. En el año 2005, Edyficar participa en la primera operación a nivel mundial de
+                    titularización de cartera para microfinanzas (BlueOrchard) y en el 2007, consiguió ser
+                    la primera empresa microfinanciera no bancaria en acceder con gran éxito en el
+                    Mercado de Capitales. </p>
 
+                <p><a href="#">Seguir leyendo...</a></p>
+            </section>
         </aside>
 
         <footer>
-
+            <br /><span class="copyright">&copy; Copyright Frances Flores</span>
         </footer>
     </div>
 </body>
